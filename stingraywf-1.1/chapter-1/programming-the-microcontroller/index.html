@@ -8,7 +8,7 @@
 
 
     
-    <title>Tags :: Manuals</title>
+    <title>Programming The Microcontroller :: Manuals</title>
 
     
     <link href="/manuals/css/nucleus.css?1735422489" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/manuals/tags/">
+  <body class="" data-url="/manuals/stingraywf-1.1/chapter-1/programming-the-microcontroller/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -727,7 +727,7 @@
   
     
     <li data-nav-id="/manuals/stingraywf-1.1/" title="Stingray WF 1.1" class="dd-item
-        
+        parent
         
         
         ">
@@ -758,7 +758,7 @@
   
     
     <li data-nav-id="/manuals/stingraywf-1.1/chapter-1/" title="User Manual" class="dd-item
-        
+        parent
         
         
         ">
@@ -902,7 +902,7 @@
     
     <li data-nav-id="/manuals/stingraywf-1.1/chapter-1/programming-the-microcontroller/" title="Programming The Microcontroller" class="dd-item
         
-        
+        active
         
         ">
       <a href="/manuals/stingraywf-1.1/chapter-1/programming-the-microcontroller/">
@@ -1170,7 +1170,19 @@
             
           
           
-            <a href='/manuals/'>Stingray Microcontrollers</a> > Tags
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/manuals/'>Stingray Microcontrollers</a> > <a href='/manuals/stingraywf-1.1/'>Stingray WF 1.1</a> > <a href='/manuals/stingraywf-1.1/chapter-1/'>User Manual</a> > Programming The Microcontroller
+          
+        
+          
+        
           
         
           
@@ -1181,7 +1193,11 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#programming-the-microcontroller">Programming the microcontroller</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -1197,9 +1213,7 @@
           
             <h1>
               
-                tag ::
-              
-              Tags
+              Programming The Microcontroller
             </h1>
           
 
@@ -1207,11 +1221,35 @@
 
 
 
-
-
+	<h2 id="programming-the-microcontroller">Programming the microcontroller</h2>
+<ol>
+<li>Go to the <a href="http://24.206.15.96:8080/stingrayOTACompiler1_1/">Stingray Browser Compiler</a>.</li>
+<li>Enter the provided IP address of the Stingray in &lsquo;Device ID&rsquo;.</li>
+<li>Create or change a program using block coding, or paste or write code that would have been written for Arduino Sketch.</li>
+<li>Select the upload mode by clicking the checkbox.</li>
+</ol>
 <ul>
-	
+<li><strong>Manual Check</strong>: After clicking &ldquo;Compile and Upload,&rdquo; wait until you see the message &ldquo;Binary File Ready - Press EN on Microcontroller to Download (Manual Check selected)&rdquo; Once you see this message, press the EN button on the Stingray to start the download process.</li>
+<li><strong>Automatic Check</strong>:  The Stingray will automatically start downloading the file as soon as it is ready, right after you click &ldquo;Compile and Upload.&rdquo;
+
+<div class="notices note" ><p>This setting will take effect after the current code has been compiled and uploaded.</p>
+</div>
+
+
+<div class="notices info" ><p>The code &ldquo;freezes&rdquo; for the first 10 seconds after the microcontroller is powered on to check for updates. This ensures that if a long delay was programmed into the microcontroller, rebooting the Stingray will automatically search for any new code the user has uploaded to address the issue.</p>
+</div>
+</li>
 </ul>
+<ol start="5">
+<li>Click &lsquo;Compile and Upload&rsquo;.
+
+<div class="notices info" ><p>If the code is incorrect, it will not compile.</p>
+</div>
+</li>
+</ol>
+
+
+
 
 
 <footer class=" footline" >
@@ -1249,8 +1287,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -1267,6 +1303,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1281,6 +1318,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1346,6 +1386,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1361,6 +1402,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1470,8 +1514,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/manuals/stingraywf-1.1/chapter-1/connecting-to-the-internet/" title="Connecting to The Internet"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/manuals/stingraywf-1.1/" title="Stingray WF 1.1" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/manuals/stingraywf-1.1/chapter-1/schematics/" title="Hardware Schematics" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

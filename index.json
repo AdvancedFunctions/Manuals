@@ -1,13 +1,13 @@
 [
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-1/overview/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-1/overview/",
 	"title": "Overview",
 	"tags": [],
 	"description": "",
-	"content": "Stingray WF 1.0 Browser-Programmable WiFi Microcontroller Overview The microcontroller is programmable using any browser. The microcontroller also comes with its own on-board battery and battery charger that provides both 5V and 3.3V, eliminating the need for external power sources.\n"
+	"content": "Stingray WF1.1 Browser-Programmable WiFi Microcontroller Overview The microcontroller is programmable using any browser. The microcontroller also comes with its own on-board battery and battery charger that provides both 5V and 3.3V, eliminating the need for external power sources.\n"
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-2/sample-program-overview/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-2/sample-program-overview/",
 	"title": "Overview",
 	"tags": [],
 	"description": "",
@@ -18,77 +18,84 @@
 	"title": "Stingray Microcontrollers",
 	"tags": [],
 	"description": "",
-	"content": "The Microcontroller For The Classroom Stingray Microcontrollers the battery powered, web-browser programmable microcontrollers\n"
+	"content": "The Microcontroller For The Classroom And Stingray Microcontrollers the battery powered, web-browser programmable microcontrollers\n"
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/",
-	"title": "Stingray WF 1.0",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/",
+	"title": "Stingray WF 1.1",
 	"tags": [],
 	"description": "",
-	"content": "Stingray WF 1.0 "
+	"content": "Stingray WF 1.1 "
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-1/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-1/",
 	"title": "User Manual",
 	"tags": [],
 	"description": "",
 	"content": "User Manual "
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-1/charging/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-1/charging/",
 	"title": "Charging",
 	"tags": [],
 	"description": "",
-	"content": "Charging Simply plug a USB Micro B plug into the micro-controller and switch the \u0026lsquo;Charge Switch\u0026rsquo; to \u0026lsquo;ON\u0026rsquo;. The \u0026lsquo;Charging LED\u0026rsquo; indicator will light red, while the \u0026lsquo;Fully Charged LED\u0026rsquo; will remain off. Once fully charged, the \u0026lsquo;Fully Charged LED\u0026rsquo; indicator will light green, and the \u0026lsquo;Charging LED\u0026rsquo; will turn off. Set the \u0026lsquo;Charge Switch\u0026rsquo; to \u0026lsquo;OFF\u0026rsquo; to power the microcontroller with its onboard battery. The microcontroller may be used during charging.\n"
+	"content": "Charging Simply plug a USB Micro B plug into the micro-controller and switch the \u0026lsquo;Power Switch\u0026rsquo; to \u0026lsquo;OFF\u0026rsquo;. The \u0026lsquo;Charging LED\u0026rsquo; indicator will light red, while the \u0026lsquo;Fully Charged LED\u0026rsquo; will remain off. Once fully charged, the \u0026lsquo;Fully Charged LED\u0026rsquo; indicator will light red, and the \u0026lsquo;Charging LED\u0026rsquo; will turn off. Set the \u0026lsquo;Power Switch\u0026rsquo; to \u0026lsquo;ON\u0026rsquo; to power the microcontroller with its onboard battery. The microcontroller may be used during charging.\n"
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-2/sample-program-connect-to-internet/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-2/sample-program-connect-to-internet/",
 	"title": "Connecting to The Internet",
 	"tags": [],
 	"description": "",
-	"content": "Connecting Your Stingray to the Internet Ensure that the \u0026lsquo;Charging Switch\u0026rsquo; is set to the OFF position. Using a smartphone, computer, or tablet, locate and connect to the Stingray access point with the same IP address as your device. After successfully connecting to the Stingray access point, open your web browser and enter your device\u0026rsquo;s IP address into the address bar. Provide the SSID and password for a Wi-Fi network to establish internet connectivity. For optimal performance, connect your Stingray to a Wi-Fi network with fewer connected devices, such as a smartphone\u0026rsquo;s hotspot. This can help avoid potential network issues.\n"
+	"content": "Connecting Your Stingray to the Internet Ensure that the \u0026lsquo;Power Switch\u0026rsquo; is set to the ON position. Using a smartphone, computer, or tablet, locate and connect to the Stingray access point with the same IP address as your Stingray device. After successfully connecting to the Stingray access point, open your web browser and enter your device\u0026rsquo;s IP address into the address bar. Provide the SSID and password for a Wi-Fi network to establish internet connectivity. For optimal performance, connect your Stingray to a Wi-Fi network with fewer connected devices, such as a smartphone\u0026rsquo;s hotspot. This can help avoid potential network issues.\n"
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-2/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-2/",
 	"title": "Sample Program",
 	"tags": [],
 	"description": "",
 	"content": "Sample Program Blinking The Onboard LED "
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-1/burning-the-ota/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-1/burning-the-ota/",
 	"title": "Burning The OTA",
 	"tags": [],
 	"description": "",
-	"content": "Uploading the OTA program to a new Stingray WF1.0 with an Arduino UNO Connect an Arduino UNO to a computer and upload a sketch with an empty setup and loop method. Connect the GND of the Arduino to the GND of the Stingray. Connect Tx of the Arduino to Tx of the Stingray and connect Rx of the Arduino to the Rx of the Stingray. Connect a 330-ohm resistor to GND and connect the other terminal to a free wire. Connect another free wire to GND. Set the board of Arduino Sketch to NodeMCU 1.0 (ESP-12E Module). Put the microcontroller into programming mode by holding the free GND wire on the pin of the WiFi module, that is closest to the pin that says Rx on the Stingray. Insert the free wire coming from the 330-ohm resistor into D4. Wait 2 seconds. Remove the free GND wire from the WiFi module followed by removing the wire from D4. Set the ipAd1 to ipAd4 int variables in the [[Default Stingray WF1.0 OTA File|Default-Stingray-WF1.0-OTA-File]] to serve as the \u0026lsquo;Device ID\u0026rsquo; and the homepage of the Stingray WF1.0 microcontroller. E.g., The code: int ipAd1=192; int ipAd2=168; int ipAd3=4; int ipAd4=12; will configure the \u0026lsquo;Device ID\u0026rsquo; as 192.168.4.12 and set the homepage of the Stingray WF1.0 microcontroller to http://192.168.4.12/.\nCompile and upload the Default Stingray WF1.0 OTA File to the Stingray WF1.0 microcontroller. "
+	"content": "Uploading the OTA program to a new Stingray WF1.1 Press \u0026lsquo;EN\u0026rsquo;, then press \u0026lsquo;BOOT\u0026rsquo;. Release \u0026lsquo;EN\u0026rsquo;, and then release \u0026lsquo;BOOT\u0026rsquo;. Set the ipAd1 to ipAd4 int variables in the Default Stingray WF1.1 OTA File to serve as the \u0026lsquo;Device ID\u0026rsquo; and the homepage of the Stingray WF1.1 microcontroller. E.g., The code: int ipAd1=192; int ipAd2=168; int ipAd3=4; int ipAd4=12; will configure the \u0026lsquo;Device ID\u0026rsquo; as 192.168.4.12 and set the homepage of the Stingray WF1.1 microcontroller to http://192.168.4.12/.\nOpen the Arduino IDE. Navigate to the \u0026ldquo;Tools\u0026rdquo; menu, select \u0026ldquo;Board,\u0026rdquo; then choose \u0026ldquo;ESP32\u0026rdquo; and select \u0026ldquo;DOIT ESP32 DEVKIT V1.\u0026rdquo; You may need to switch to the Espriff Systems version of the ESP32. Version 3.0.4 is recommended.\nCompile and upload the Default Stingray WF1.1 OTA File to the Stingray WF1.1 microcontroller. "
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-2/sample-program-code/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-2/sample-program-code/",
 	"title": "Code",
 	"tags": [],
 	"description": "",
 	"content": "Blink Program Copy and paste this code into the Stingray Browser Compiler.\n// C++ code // void setup() { pinMode(5, OUTPUT); } void loop() { digitalWrite(5, HIGH); delay(1000); // Wait for 1000 millisecond(s) digitalWrite(5, LOW); delay(1000); // Wait for 1000 millisecond(s) } "
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-1/connecting-to-the-internet/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-1/connecting-to-the-internet/",
 	"title": "Connecting to The Internet",
 	"tags": [],
 	"description": "",
-	"content": "Setting Up the Stingray Module to Upload Code to the Microcontroller Using a phone, tablet, or computer, scan the WiFi network for wireless access points. A Stingray should be visible. Click it and connect to it. In a browser, enter the provided IP address of the Stingray. Enter the SSID of the hotspot to give the Stingray access to the internet. "
+	"content": "Setting Up the Stingray Module to Upload Code to the Microcontroller Using your phone, tablet, or computer, scan for available WiFi networks. Look for a network named \u0026ldquo;Stingray\u0026rdquo; and select it. Connect to the network using the password: 11111111. In a browser, enter the provided IP address of the Stingray. Enter the SSID of the hotspot to give the Stingray access to the internet. "
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-1/programming-the-microcontroller/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-1/programming-the-microcontroller/",
 	"title": "Programming The Microcontroller",
 	"tags": [],
 	"description": "",
-	"content": "Programming the microcontroller Go to the Stingray Browser Compiler. Enter the provided IP address of the Stingray in \u0026lsquo;Device ID\u0026rsquo;. Create or change a program using block coding, or paste or write code that would have been written for Arduino Sketch. Click the checkbox to set the mode of upload. The code \u0026ldquo;freezes\u0026rdquo; for the first 10 seconds to poll for updates once the microcontroller has been switched on.\nClick \u0026lsquo;Compile and Upload\u0026rsquo;. If the code is incorrect, it will not compile.\nA status will show the progress of compiling and burning the code onto the microcontroller in the output console. It will display \u0026ldquo;Approximate loading time remaining: %\u0026rdquo;. Never switch the charge switch until the \u0026lsquo;Approximate loading time remaining\u0026rsquo; reaches 0%. Doing so may cause the firmware to crash, which would require uploading the firmware again.\nA rapidly flashing blue light on the Stingray indicates that the Stingray will attempt to begin requesting this compiled file. Note: once a file is found, the blue light will stop flashing, and it will take about 20 seconds for the new program to be burnt onto the microcontroller. If the compiled file is not uploading, you may need to refresh the \u0026lsquo;Stingray Browser Compiler\u0026rsquo; page and try again.\n"
+	"content": "Programming the microcontroller Go to the Stingray Browser Compiler. Enter the provided IP address of the Stingray in \u0026lsquo;Device ID\u0026rsquo;. Create or change a program using block coding, or paste or write code that would have been written for Arduino Sketch. Select the upload mode by clicking the checkbox. Manual Check: After clicking \u0026ldquo;Compile and Upload,\u0026rdquo; wait until you see the message \u0026ldquo;Binary File Ready - Press EN on Microcontroller to Download (Manual Check selected)\u0026rdquo; Once you see this message, press the EN button on the Stingray to start the download process. Automatic Check: The Stingray will automatically start downloading the file as soon as it is ready, right after you click \u0026ldquo;Compile and Upload.\u0026rdquo; This setting will take effect after the current code has been compiled and uploaded.\nThe code \u0026ldquo;freezes\u0026rdquo; for the first 10 seconds after the microcontroller is powered on to check for updates. This ensures that if a long delay was programmed into the microcontroller, rebooting the Stingray will automatically search for any new code the user has uploaded to address the issue.\nClick \u0026lsquo;Compile and Upload\u0026rsquo;. If the code is incorrect, it will not compile.\n"
 },
 {
-	"uri": "https://advancedfunctions.github.io/manuals/wf-1.0/chapter-1/schematics/",
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-1/schematics/",
 	"title": "Hardware Schematics",
 	"tags": [],
 	"description": "",
 	"content": "Schematics "
+},
+{
+	"uri": "https://advancedfunctions.github.io/manuals/stingraywf-1.1/chapter-1/default-stingray-wf1.1-ota-file/",
+	"title": "Default OTA File",
+	"tags": [],
+	"description": "",
+	"content": "Default Stingray WF1.1 OTA File /** * Set the 4 int variables to which serves as the device name and the local ip address of the Access Point */ int ipAd1=192; int ipAd2=168; int ipAd3=4; int ipAd4=88; #include \u0026lt;EEPROM.h\u0026gt; #include \u0026lt;WiFi.h\u0026gt; #include \u0026lt;ESP32httpUpdate.h\u0026gt; #include \u0026lt;HTTPClient.h\u0026gt; #include \u0026lt;WebServer.h\u0026gt; String accessPointSsid = \u0026#34;Stingray \u0026#34;+String(ipAd1)+\u0026#34;.\u0026#34;+String(ipAd2)+\u0026#34;.\u0026#34;+String(ipAd3)+\u0026#34;.\u0026#34;+String(ipAd4); String accessPointPassword = \u0026#34;11111111\u0026#34;; String deviceName = String(ipAd1)+\u0026#34;.\u0026#34;+String(ipAd2)+\u0026#34;.\u0026#34;+String(ipAd3)+\u0026#34;.\u0026#34;+String(ipAd4); String ssidEntered; String passwordEntered; String compiledFileHeader; WiFiClient clientInfo; IPAddress local_IP(ipAd1, ipAd2, ipAd3, ipAd4); IPAddress gateway(192, 168, 4, 9); IPAddress subnet(255, 255, 255, 0); WebServer server(80); /** * On the server, the commented code is uncommented. */ void setup() { Serial.begin(9600); otaSetup(); //ewiowpj(); } /** * On the server, the commented code is uncommented. */ void loop() { otaLoop(); //vsaiopwij(); } /** * Loads EEPROM WIfi credentials and emptyFile.txt header and connects to Wifi Hotspot */ void otaSetup() { Serial.println(\u0026#34;in here\u0026#34;); setupAccessPoint(); setupServerHandles(); getUpdateHeaderFromEEPROM(); Serial.println(\u0026#34;Got EEPROM HEADER\u0026#34;); getHotSpotCredentialsFromEEPROM(); } /** * Performs upload and burning of new OTA program once available */ unsigned long initialTime = millis(); void otaLoop() { server.handleClient(); if (millis() - initialTime \u0026gt; 1000) { checkForNewCompiledFileAndUpload(); initialTime = millis(); } } /** * Checks for new compiled files and begins the upload and burning process */ void checkForNewCompiledFileAndUpload() { Serial.println(\u0026#34;compiling\u0026#34;); char rfidWebAddress[] = \u0026#34;24.206.15.96\u0026#34;; String currentCompiledFileHeader = \u0026#34;\u0026#34;; Serial.println(WiFi.status()); if (clientInfo.connect(rfidWebAddress, 8080)) { Serial.println(\u0026#34;connected\u0026#34;); clientInfo.print(\u0026#34;GET /\u0026#34; + deviceName + \u0026#34;/emptyFile.txt HTTP/1.1\\n\u0026#34;); clientInfo.print(\u0026#34;Host: 24.206.15.96\\n\u0026#34;); clientInfo.print(\u0026#34;Connection: close\\n\u0026#34;); clientInfo.println(); delay(100); int timeTaken = 0; while (!clientInfo.available()) { Serial.print(\u0026#34;gettingData: \u0026#34;); Serial.println(timeTaken); timeTaken++; } int compiledFileSizeToRead = 300; while (clientInfo.available() \u0026amp;\u0026amp; compiledFileSizeToRead \u0026gt; 0) { char dataAsChar = (char)clientInfo.read(); currentCompiledFileHeader += dataAsChar; compiledFileSizeToRead--; } Serial.println(currentCompiledFileHeader); if (compiledFileHeader != currentCompiledFileHeader \u0026amp;\u0026amp; currentCompiledFileHeader != \u0026#34;\u0026#34;) { WiFiClient client; compiledFileHeader = currentCompiledFileHeader; saveUpdateHeaderToEEPROM(); delay(7000); ESPhttpUpdate.update(\u0026#34;http://24.206.15.96:8080/\u0026#34; + deviceName + \u0026#34;/\u0026#34; + deviceName + \u0026#34;.ino.bin\u0026#34;); } else { } } } /** Set which page to load from ESP */ void setupServerHandles() { server.on(\u0026#34;/\u0026#34;, HTTP_GET, connectToHotspotGUI); server.on(\u0026#34;/connectToHotspot\u0026#34;, HTTP_POST, connectToHotspot); server.on(\u0026#34;/hotspotConnectingStatus\u0026#34;, HTTP_GET, hotspotConnectingStatus); server.begin(); } /** * Displays connect ot Hotspot page */ void connectToHotspotGUI() { String connectToHotspotGUIStatus = \u0026#34;\u0026#34;; if (WiFi.status() == WL_CONNECTED) { connectToHotspotGUIStatus = \u0026#34;Status: Connected to \u0026#34; + ssidEntered + \u0026#34;\u0026lt;hr\u0026gt;\u0026#34;; } else { connectToHotspotGUIStatus = \u0026#34;Status: Disconnected\u0026lt;hr\u0026gt;\u0026#34;; } server.send(200, \u0026#34;text/html\u0026#34;, \u0026#34;\u0026lt;html\u0026gt;\u0026lt;meta content=\u0026#39;width=device-width, initial-scale=1.0, user-scalable=0\u0026#39; name=\u0026#39;viewport\u0026#39; /\u0026gt;\u0026lt;body \u0026gt;\u0026lt;div style=\\\u0026#34;font:14px Calibri;text-align:center;background-color:rgba(200,200,200,0.7);-moz-border-radius:2vw;-webkit-border-radius:2vw;border-radius:2vw;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);padding:5vh 5vh;\\\u0026#34;\u0026gt;\u0026#34; + connectToHotspotGUIStatus + \u0026#34;\u0026lt;h2 style=\\\u0026#34;padding:2vh;margin:2vh;margin-left:0px;font:14px Calibri\\\u0026#34;\u0026gt;Connect To A New Hotspot\u0026lt;/h2\u0026gt;\u0026lt;form action=\\\u0026#34;/connectToHotspot\\\u0026#34; method=\\\u0026#34;POST\\\u0026#34;\u0026gt; \u0026lt;input type=\\\u0026#34;text\\\u0026#34; name=\\\u0026#34;ssid\\\u0026#34; placeholder=\\\u0026#34;SSID\\\u0026#34; style=\\\u0026#34;padding:2vh;margin:2vh;\\\u0026#34;\u0026gt;\u0026lt;br\u0026gt; \u0026lt;input type=\\\u0026#34;password\\\u0026#34; name=\\\u0026#34;password\\\u0026#34; placeholder=\\\u0026#34;Password\\\u0026#34; style=\\\u0026#34;padding:2vh;margin:2vh;\\\u0026#34;\u0026gt;\u0026lt;br\u0026gt; \u0026lt;input type=\\\u0026#34;submit\\\u0026#34; value=\\\u0026#34;Connect\\\u0026#34; style=\\\u0026#34;padding:2vh;margin:2vh;font:20px Calibri;-moz-border-radius:15px;-webkit-border-radius:15px;border-radius:15px;border-color:blue;\\\u0026#34;\u0026gt;\u0026lt;/form\u0026gt; \u0026lt;/div\u0026gt;\u0026lt;/body\u0026gt;\u0026lt;/html\u0026gt;\u0026#34;); } int hotspotConnectionAttemptCounter = 0; /** * Displays connecting status page */ void hotspotConnectingStatus() { if (WiFi.status() != WL_CONNECTED) { hotspotConnectionAttemptCounter++; if (hotspotConnectionAttemptCounter \u0026gt; 10) { connectToHotspotGUI(); hotspotConnectionAttemptCounter = 0; } else { server.send(200, \u0026#34;text/html\u0026#34;, \u0026#34;\u0026lt;html\u0026gt;\u0026lt;meta content=\u0026#39;width=device-width, initial-scale=1.0, user-scalable=0\u0026#39; name=\u0026#39;viewport\u0026#39; /\u0026gt;\u0026lt;body onload=\u0026#39;javascript:checkStatus()\u0026#39;\u0026gt;\u0026lt;div style=\\\u0026#34;font:40px Calibri;text-align:center;background-color:rgba(200,200,200,0.7);-moz-border-radius:2vw;-webkit-border-radius:2vw;border-radius:2vw;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);padding:5vh 5vh;\\\u0026#34;\u0026gt;\u0026lt;h2 style=\\\u0026#34;padding:2vh;margin:2vh;margin-left:0px;font:20px Calibri\\\u0026#34; id=\u0026#39;connectionStatus\u0026#39;\u0026gt;Connecting.\u0026amp;nbsp;\u0026lt;/h2\u0026gt;\u0026lt;/div\u0026gt;\u0026lt;/body\u0026gt;\u0026lt;script\u0026gt;function checkStatus(){setTimeout(function(){document.getElementById(\u0026#39;connectionStatus\u0026#39;).innerHTML=\\\u0026#34;Connecting..\\\u0026#34;},1000);setTimeout(function(){window.location.replace(\\\u0026#34;/hotspotConnectingStatus\\\u0026#34;)},2000);}\u0026lt;/script\u0026gt;\u0026lt;/html\u0026gt;\u0026#34;); } } else { //WiFi is connected saveHotSpotCredentialsToEEPROM(); connectToHotspotGUI(); } } /** * Saves SSID and Password to EEPROM */ void saveHotSpotCredentialsToEEPROM() { EEPROM.begin(100); EEPROM.put(0, ssidEntered.length()); for (int i = 0; i \u0026lt; ssidEntered.length(); i++) { EEPROM.put(i + 1, ssidEntered.charAt(i)); } EEPROM.put(ssidEntered.length() + 1, passwordEntered.length()); for (int i = 0; i \u0026lt; passwordEntered.length(); i++) { EEPROM.put(ssidEntered.length() + i + 2, passwordEntered.charAt(i)); } EEPROM.commit(); } /** * Gets SSID and Password to EEPROM */ void getHotSpotCredentialsFromEEPROM() { ssidEntered = \u0026#34;\u0026#34;; passwordEntered = \u0026#34;\u0026#34;; char eePROMCharToRead; EEPROM.begin(100); byte eepromSsidLength = 0; EEPROM.get(0, eepromSsidLength); for (int i = 0; i \u0026lt; eepromSsidLength; i++) { EEPROM.get(i + 1, eePROMCharToRead); ssidEntered += eePROMCharToRead; } byte eepromPasswordLength = 0; EEPROM.get(eepromSsidLength + 1, eepromPasswordLength); for (int i = 0; i \u0026lt; eepromPasswordLength; i++) { EEPROM.get(eepromSsidLength + 2 + i, eePROMCharToRead); passwordEntered += eePROMCharToRead; } WiFi.begin(ssidEntered, passwordEntered); delay(100); } /** * Saves emptyFile.txt file header */ void saveUpdateHeaderToEEPROM() { EEPROM.begin(400); for (int i = 0; i \u0026lt; 300; i++) { EEPROM.put(i + 50, compiledFileHeader.charAt(i)); } EEPROM.commit(); } /** * Gets emptyFile.txt file header to check if new file avaiable for download */ void getUpdateHeaderFromEEPROM() { compiledFileHeader = \u0026#34;\u0026#34;; char eePROMCharToRead; EEPROM.begin(400); for (int i = 0; i \u0026lt; 300; i++) { EEPROM.get(i + 50, eePROMCharToRead); compiledFileHeader += eePROMCharToRead; } delay(100); } /** * Connects to Hotspot to give access to the internet */ void connectToHotspot() { ssidEntered = server.arg(\u0026#34;ssid\u0026#34;); passwordEntered = server.arg(\u0026#34;password\u0026#34;); WiFi.begin(ssidEntered, passwordEntered); hotspotConnectingStatus(); } /** Set ESP as Access Point */ void setupAccessPoint() { WiFi.softAPConfig(local_IP, gateway, subnet); WiFi.softAP(accessPointSsid, accessPointPassword); WiFi.softAPIP(); server.begin(); } "
 },
 {
 	"uri": "https://advancedfunctions.github.io/manuals/categories/",

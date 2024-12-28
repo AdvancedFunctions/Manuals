@@ -8,7 +8,7 @@
 
 
     
-    <title>Tags :: Manuals</title>
+    <title>Burning The OTA :: Manuals</title>
 
     
     <link href="/manuals/css/nucleus.css?1735422489" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/manuals/tags/">
+  <body class="" data-url="/manuals/stingraywf-1.1/chapter-1/burning-the-ota/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -727,7 +727,7 @@
   
     
     <li data-nav-id="/manuals/stingraywf-1.1/" title="Stingray WF 1.1" class="dd-item
-        
+        parent
         
         
         ">
@@ -758,7 +758,7 @@
   
     
     <li data-nav-id="/manuals/stingraywf-1.1/chapter-1/" title="User Manual" class="dd-item
-        
+        parent
         
         
         ">
@@ -846,7 +846,7 @@
     
     <li data-nav-id="/manuals/stingraywf-1.1/chapter-1/burning-the-ota/" title="Burning The OTA" class="dd-item
         
-        
+        active
         
         ">
       <a href="/manuals/stingraywf-1.1/chapter-1/burning-the-ota/">
@@ -1170,7 +1170,19 @@
             
           
           
-            <a href='/manuals/'>Stingray Microcontrollers</a> > Tags
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/manuals/'>Stingray Microcontrollers</a> > <a href='/manuals/stingraywf-1.1/'>Stingray WF 1.1</a> > <a href='/manuals/stingraywf-1.1/chapter-1/'>User Manual</a> > Burning The OTA
+          
+        
+          
+        
           
         
           
@@ -1181,7 +1193,15 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#uploading-the-ota-program-to-a-new-stingray-wf11">Uploading the OTA program to a new Stingray WF1.1</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -1197,9 +1217,7 @@
           
             <h1>
               
-                tag ::
-              
-              Tags
+              Burning The OTA
             </h1>
           
 
@@ -1207,11 +1225,27 @@
 
 
 
+	<h3 id="uploading-the-ota-program-to-a-new-stingray-wf11">Uploading the OTA program to a new Stingray WF1.1</h3>
+<ol>
+<li>Press &lsquo;EN&rsquo;, then press &lsquo;BOOT&rsquo;. Release &lsquo;EN&rsquo;, and then release &lsquo;BOOT&rsquo;.</li>
+<li>Set the ipAd1 to ipAd4 int variables in the <a href="/manuals/stingraywf-1.1/chapter-1/default-stingray-wf1.1-ota-file/">Default Stingray WF1.1 OTA File</a> to serve as the &lsquo;Device ID&rsquo; and the homepage of the Stingray WF1.1 microcontroller. E.g., The code:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ipAd1<span style="color:#f92672">=</span><span style="color:#ae81ff">192</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ipAd2<span style="color:#f92672">=</span><span style="color:#ae81ff">168</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ipAd3<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> ipAd4<span style="color:#f92672">=</span><span style="color:#ae81ff">12</span>;
+</span></span></code></pre></div><p>will configure the &lsquo;Device ID&rsquo; as <code>192.168.4.12</code> and set the homepage of the Stingray WF1.1 microcontroller to <code>http://192.168.4.12/</code>.</p>
+<ol start="3">
+<li>Open the Arduino IDE. Navigate to the &ldquo;Tools&rdquo; menu, select &ldquo;Board,&rdquo; then choose &ldquo;ESP32&rdquo; and select &ldquo;DOIT ESP32 DEVKIT V1.&rdquo;
+
+<div class="notices note" ><p>You may need to switch to the Espriff Systems version of the ESP32. Version 3.0.4 is recommended.</p>
+</div>
+</li>
+<li>Compile and upload the <a href="/manuals/stingraywf-1.1/chapter-1/default-stingray-wf1.1-ota-file/">Default Stingray WF1.1 OTA File</a> to the Stingray WF1.1 microcontroller.</li>
+</ol>
 
 
-<ul>
-	
-</ul>
+
 
 
 <footer class=" footline" >
@@ -1249,8 +1283,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -1267,6 +1299,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1281,6 +1314,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1314,6 +1350,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1329,6 +1366,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1470,8 +1510,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/manuals/stingraywf-1.1/chapter-1/charging/" title="Charging"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/manuals/stingraywf-1.1/" title="Stingray WF 1.1" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/manuals/stingraywf-1.1/chapter-1/connecting-to-the-internet/" title="Connecting to The Internet" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

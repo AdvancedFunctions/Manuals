@@ -8,7 +8,7 @@
 
 
     
-    <title>Tags :: Manuals</title>
+    <title>Code :: Manuals</title>
 
     
     <link href="/manuals/css/nucleus.css?1735422489" rel="stylesheet">
@@ -36,7 +36,7 @@
     </style>
     
   </head>
-  <body class="" data-url="/manuals/tags/">
+  <body class="" data-url="/manuals/stingraywf-1.1/chapter-2/sample-program-code/">
     <nav id="sidebar" class="showVisitedLinks">
 
 
@@ -727,7 +727,7 @@
   
     
     <li data-nav-id="/manuals/stingraywf-1.1/" title="Stingray WF 1.1" class="dd-item
-        
+        parent
         
         
         ">
@@ -994,7 +994,7 @@
   
     
     <li data-nav-id="/manuals/stingraywf-1.1/chapter-2/" title="Sample Program" class="dd-item
-        
+        parent
         
         
         ">
@@ -1082,7 +1082,7 @@
     
     <li data-nav-id="/manuals/stingraywf-1.1/chapter-2/sample-program-code/" title="Code" class="dd-item
         
-        
+        active
         
         ">
       <a href="/manuals/stingraywf-1.1/chapter-2/sample-program-code/">
@@ -1170,7 +1170,19 @@
             
           
           
-            <a href='/manuals/'>Stingray Microcontrollers</a> > Tags
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='/manuals/'>Stingray Microcontrollers</a> > <a href='/manuals/stingraywf-1.1/'>Stingray WF 1.1</a> > <a href='/manuals/stingraywf-1.1/chapter-2/'>Sample Program</a> > Code
+          
+        
+          
+        
           
         
           
@@ -1181,7 +1193,15 @@
                 
                     <div class="progress">
     <div class="wrapper">
-
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#blink-program">Blink Program</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     </div>
 </div>
 
@@ -1197,9 +1217,7 @@
           
             <h1>
               
-                tag ::
-              
-              Tags
+              Code
             </h1>
           
 
@@ -1207,11 +1225,25 @@
 
 
 
+	<h3 id="blink-program">Blink Program</h3>
+<p>Copy and paste this code into the <a href="http://24.206.15.96:8080/stingrayOTACompiler1_1/">Stingray Browser Compiler</a>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#75715e">// C++ code
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">//
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">setup</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  pinMode(<span style="color:#ae81ff">5</span>, OUTPUT);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">loop</span>()
+</span></span><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>  digitalWrite(<span style="color:#ae81ff">5</span>, HIGH);
+</span></span><span style="display:flex;"><span>  delay(<span style="color:#ae81ff">1000</span>); <span style="color:#75715e">// Wait for 1000 millisecond(s)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>  digitalWrite(<span style="color:#ae81ff">5</span>, LOW);
+</span></span><span style="display:flex;"><span>  delay(<span style="color:#ae81ff">1000</span>); <span style="color:#75715e">// Wait for 1000 millisecond(s)
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>}
+</span></span></code></pre></div>
 
 
-<ul>
-	
-</ul>
 
 
 <footer class=" footline" >
@@ -1249,8 +1281,6 @@
             
                 
                     
-                        
-                        
                     
                 
                 
@@ -1266,6 +1296,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1397,6 +1430,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -1411,6 +1445,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -1443,6 +1480,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -1470,8 +1508,10 @@
 	 
 	 
 		
+			<a class="nav nav-prev" href="/manuals/stingraywf-1.1/chapter-2/sample-program-connect-to-internet/" title="Connecting to The Internet"> <i class="fa fa-chevron-left"></i></a>
 		
-			<a class="nav nav-next" href="/manuals/stingraywf-1.1/" title="Stingray WF 1.1" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+			<a class="nav nav-next" href="/manuals/stingraywf-1.1/chapter-2/sample-program-overview/" title="Overview" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
